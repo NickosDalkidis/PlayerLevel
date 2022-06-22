@@ -1,4 +1,5 @@
 from _ast import If
+from traceback import print_stack
 
 print("Hello and welcome to this app ")
 print("In this app you find if you know anything about videogames in general")
@@ -88,4 +89,55 @@ if ans2:=("a"):
           points=points+3
 else:
       print("wrong Answer")
-      points=points-2  
+      points=points-2
+if ans3:=("c"):
+      print("That's Correct")
+      points=points+3
+else: 
+      print("Wrong Answer")
+      points=points-2
+if ans4:=("b"):
+      print("That's Correct")
+      points=points+2
+else:
+      print("Wrong Answer")
+      points=points-2
+if ans5:=("b"):
+   print("That's Correct")
+   points=points+3
+else:                
+      print("Wrong answer")
+      points=points-2
+if ans6:=("c"):
+     print("That's Correct")
+     points=points+3
+else:
+      print('Wrong Answer')
+      points=points-2
+if ans7:=("a"):
+      print("That's Correct")
+      points=points+3
+else:
+      print("Wrong Answer")
+      points=points-2
+if ans8:=("d"):
+      print("That's Correct")
+      points=points+3
+else:
+      print("Wrong Answer")
+      points=points-2
+if ans9:=("c"):
+        print("That's Correct")
+        points=points+3
+else:
+      print("wrong Answer")
+      points=points-2
+if ans10:=("a"):
+      print("That's Correct")
+      points=points+3
+else:
+      print("Wrong Answer")
+      points=points-2 
+print("This is the end of the test.I hope you liked")
+print("Your total points are")
+print(points ) 
