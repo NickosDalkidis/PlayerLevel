@@ -6,6 +6,7 @@ print("Are You Ready For The test?")
 ready = input("Please Enter Your Answer Yes/No")
 bop="Yes"
 bopp="No"
+points=3
 if ready:=bopp:
     print("Thanks for checking my code")
 if ready:=bop:
@@ -75,4 +76,16 @@ if ready:=bop:
           " b.1"
           " c.2"
           " d.3")
-    ans10=input("Please enter the correct answer")      
+    ans10=input("Please enter the correct answer")
+if ans1:=("b"):
+      print("Thats Correct")
+      points=points+3
+else:
+    print("Wrong Answer")
+    points=points-2
+if ans2:=("a"):
+          print("That's Correct ")
+          points=points+3
+else:
+      print("wrong Answer")
+      points=points-2  
