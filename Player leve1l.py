@@ -1,5 +1,4 @@
 from _ast import If
-from traceback import print_stack
 
 print("Hello and welcome to this app ")
 print("In this app you find if you know anything about videogames in general")
@@ -140,4 +139,9 @@ else:
       points=points-2 
 print("This is the end of the test.I hope you liked")
 print("Your total points are")
-print(points ) 
+print(points )
+if points>=0 and points<=15:
+      print("Not a big fan eh?")
+if points>15 and points<=30:
+      print("you are a big fan")      
+                        
