@@ -9,6 +9,7 @@ bopp="No"
 points=3
 if ready:=bopp:
     print("Thanks for checking my code")
+    quit()
 if ready:=bop:
     print("You will be asked 10 questions")
     print("For every right answer you get three points whilst for every wrong answer you will lose 2 points")
